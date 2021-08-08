@@ -1,7 +1,0 @@
-R_DEF: Internal format may change without notice
-local
-string base_url
-string do_not_connection_url
-string error_code_title
-string internet_connection_error
-string try_again
