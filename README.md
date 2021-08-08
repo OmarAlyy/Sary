@@ -1,9 +1,13 @@
 # Sary
 Design and implement Sary flagship Android app Catalog screen
 For the purpose of demonstrating the use of clean architecture (MVVM, Solid Principle, OOP)
-
 - [S.O.L.I.D](https://en.wikipedia.org/wiki/SOLID) priciple followed for more understandable, flexible and maintainable.
 
+
+# Screenshots
+|  |  |  |
+|:-:|:-:|:-:|
+| ![Fist](https://github.com/OmarAlyy/Sary/blob/master/readme/Screenshot_1628386725.png?raw=true) | ![3](https://github.com/OmarAlyy/Sary/blob/master/readme/Screenshot_1628386728.png?raw=true) | ![3](https://github.com/OmarAlyy/Sary/blob/master/readme/Screenshot_1628386737.png?raw=true) |
 
 
 **MVVM Best Pratice:**
@@ -63,5 +67,9 @@ For the purpose of demonstrating the use of clean architecture (MVVM, Solid Prin
   
   ### Domain
   The domain layer responsibility is to simply contain the UseCase instance used to retrieve data from the Data layer and pass it onto the Presentation layer. 
+  
+  ![mvvm](https://github.com/OmarAlyy/Sary/blob/master/readme/Screen%20Shot%202021-08-08%20at%203.36.06%20AM.png)
+
+
   
 
