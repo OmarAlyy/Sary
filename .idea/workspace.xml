@@ -18,7 +18,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c7be999-20e1-4dba-95c9-bfde968d041a" name="Default Changelist" comment="" />
+    <list default="true" id="0c7be999-20e1-4dba-95c9-bfde968d041a" name="Default Changelist" comment="First push : Build home page In the application&quot;Sary&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +52,9 @@
         <option value="resourceFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JUnitClassTemplateConfiguration">
     <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
@@ -92,6 +95,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectId" id="1wKhWqjvaQjSoU56FSg74AJ8F0n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -218,7 +222,19 @@
       <option name="presentableId" value="Default" />
       <updated>1628213221798</updated>
     </task>
+    <task id="LOCAL-00001" summary="First push : Build home page In the application&quot;Sary&quot;">
+      <created>1628384126940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628384126940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First push : Build home page In the application&quot;Sary&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="First push : Build home page In the application&quot;Sary&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1628370130549">
@@ -313,6 +329,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1481" height="199" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1628276987182" />
+    <state x="240" y="103" key="Vcs.Push.Dialog.v2" timestamp="1628384147728">
+      <screen x="0" y="25" width="1280" height="709" />
+    </state>
+    <state x="240" y="103" key="Vcs.Push.Dialog.v2/0.25.1280.709@0.25.1280.709" timestamp="1628384147728" />
     <state x="365" y="220" key="com.intellij.ide.util.TipDialog" timestamp="1628248680989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
