@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sary</string>
+    <string name="store">store</string>
+    <string name="orders">orders</string>
+    <string name="my_profile">my profile</string>
+    <string name="delivery_to">Deliver to</string>
+    <string name="lang">عربي</string>
+    <string name="work">work</string>
+    <string name="do_you_have_a_special_order">Do you have a special order?</string>
+    <string name="click_here">click here</string>
+ </resources>

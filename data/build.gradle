@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    // core
+    implementation(Libs.stdLib)
+    implementation(Libs.ktx)
+
+    // module
+    implementation(project(Modules.domain))
+
+    // rx
+    implementation(Libs.rxAndroid)
+    implementation(Libs.rxJava)
+
+    // room database
+    api(Libs.roomRuntime)
+    implementation(Libs.roomRxjava2)
+
+    // Lifecycle
+    implementation(Libs.lifecycleRuntime)
+    implementation(Libs.lifecycleExtensions)
+    implementation(Libs.lifecycleJava8)
+
+    // Retrofit
+    implementation(Libs.retrofitRuntime)
+    implementation(Libs.retrofitGson)
+    implementation(Libs.retrofitAdapter)
+
+    // dagger
+    implementation(Libs.hilt)
+    kapt(Libs.hiltCompiler)
+
+    implementation(Libs.okLogging)
+    implementation(Libs.timber)
+
+    // extension
+    kapt(Libs.roomCompiler)
+
+
+
+
+}

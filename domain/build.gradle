@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // kotlin core
+    implementation(Libs.stdLib)
+    implementation(Libs.ktx)
+
+    // rx
+    implementation(Libs.rxJava)
+    implementation(Libs.rxAndroid)
+
+    // dagger
+    implementation(Libs.daggerSupport)
+
+    implementation(Libs.hilt)
+    kapt(Libs.hiltCompiler)
+
+     implementation(Libs.retrofitGson)
+
+
+}

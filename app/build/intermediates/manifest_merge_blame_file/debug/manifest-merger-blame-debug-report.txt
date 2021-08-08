@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.omar_aly.sary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:6:5-79
+11-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:9:5-31:19
+15        android:name="com.omar_aly.sary.application.MainApplication"
+15-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:10:9-52
+16        android:allowBackup="true"
+16-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/fcabdc3d05d609e425956435baf343c2/core-1.5.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher"
+21-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:14:9-48
+22        android:supportsRtl="true"
+22-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:16:9-40
+25        <activity android:name="com.omar_aly.sary.application.SplashActivity" >
+25-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:19:9-25:20
+25-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:19:19-61
+26            <intent-filter>
+26-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:20:13-24:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:21:17-69
+27-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:21:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:23:17-77
+29-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:23:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.omar_aly.sary.application.MainActivity" />
+32-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:27:9-62
+32-->/Users/omaraly/Documents/sary/sary/app/src/main/AndroidManifest.xml:27:19-59
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/3c2e53235be6b527271c2cd25aa17a13/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/3c2e53235be6b527271c2cd25aa17a13/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+36            android:authorities="com.omar_aly.sary.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/3c2e53235be6b527271c2cd25aa17a13/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/3c2e53235be6b527271c2cd25aa17a13/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/3c2e53235be6b527271c2cd25aa17a13/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+39
+40        <service
+40-->[androidx.room:room-runtime:2.3.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/6757fc8e7afe9cb284a01d6282dfc72f/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+41            android:name="androidx.room.MultiInstanceInvalidationService"
+41-->[androidx.room:room-runtime:2.3.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/6757fc8e7afe9cb284a01d6282dfc72f/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+42            android:directBootAware="true"
+42-->[androidx.room:room-runtime:2.3.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/6757fc8e7afe9cb284a01d6282dfc72f/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+43            android:exported="false" />
+43-->[androidx.room:room-runtime:2.3.0] /Users/omaraly/.gradle/caches/transforms-2/files-2.1/6757fc8e7afe9cb284a01d6282dfc72f/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+44    </application>
+45
+46</manifest>

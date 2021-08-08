@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ساري</string>
+    <string name="store">المتجر</string>
+    <string name="orders">الطلبات</string>
+    <string name="my_profile">صفحتي</string>
+    <string name="delivery_to">التوصيل الي</string>
+     <string name="lang">English</string>
+    <string name="work">العمل</string>
+    <string name="do_you_have_a_special_order">هل لديك طلب خاص؟</string>
+    <string name="click_here">click here</string>
+
+</resources>
