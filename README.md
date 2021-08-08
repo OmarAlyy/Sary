@@ -36,14 +36,6 @@ For the purpose of demonstrating the use of clean architecture (MVVM, Solid Prin
 
 
 
-
-
-### Layers
-- **Domain** - Would execute business logic which is independent of any layer and is just a pure kotlin/java package with no android specific dependency.
-- **Data** - Would dispense the required data for the application to the domain layer by implementing interface exposed by the domain.
-- **Presentation / app** - Would include both domain and data layer and is android specific which executes the UI logic.
-
-
 ## Android 3 Layers Architecture
 ![https://fernandocejas.com/2018/05/07/architecting-android-reloaded/](https://github.com/android10/Sample-Data/blob/master/Android-CleanArchitecture-Kotlin/architecture/clean_architecture_reloaded_layers.png)
 
